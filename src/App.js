@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import _ from 'lodash'
 import './App.css';
-import TableComponent from './TableComponent';
+import Footer from './Footer';
 
 class App extends Component {
 
@@ -14,7 +14,7 @@ class App extends Component {
 
     render(){
         return(
-        <TableComponent />
+        <Footer />
         );
     }
 }
